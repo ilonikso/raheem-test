@@ -1209,3 +1209,8 @@ select:-moz-focusring, select::-moz-focus-inner {
 @media (max-width: 375px) {
   .footer {
     margin-top: -250px; } }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Retina-specific stuff here */
+  .footer__newsletter {
+    margin-left: 30px; } }
