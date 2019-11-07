@@ -1106,6 +1106,10 @@ select:-moz-focusring, select::-moz-focus-inner {
       width: 35px;
       height: 35px; }
 
+@media (max-width: 1500px) {
+  .footer__newsletter {
+    margin-left: 30px; } }
+
 @media (max-width: 1400px) {
   .footer__list-wrapper:nth-child(1) {
     width: 240px; }
@@ -1209,8 +1213,3 @@ select:-moz-focusring, select::-moz-focus-inner {
 @media (max-width: 375px) {
   .footer {
     margin-top: -250px; } }
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  /* Retina-specific stuff here */
-  .footer__newsletter {
-    margin-left: 30px; } }
