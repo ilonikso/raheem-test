@@ -1018,7 +1018,8 @@ select:-moz-focusring, select::-moz-focus-inner {
 .footer__newsletter {
   max-width: 310px;
   margin-top: -30px;
-  margin-left: 100px; }
+  margin-left: 100px;
+  margin-right: 10px; }
 
 .footer__newsletter-title {
   font-size: 19px;
@@ -1094,7 +1095,7 @@ select:-moz-focusring, select::-moz-focus-inner {
 
 .footer__social-item {
   list-style: none;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
   height: 35px; }
   .footer__social-item:last-child {
     margin-bottom: 0; }
@@ -1157,7 +1158,9 @@ select:-moz-focusring, select::-moz-focus-inner {
   .footer__social {
     margin-top: 60px; }
   .footer__contact-header {
-    margin-bottom: 23px; } }
+    margin-bottom: 23px; }
+  .footer__social-item {
+    margin-bottom: 31px; } }
 
 @media (max-width: 767px) {
   .footer__list-wrapper {
